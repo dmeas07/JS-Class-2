@@ -5,7 +5,12 @@ let subtotal = (productPrice*productQty);
 let salesTax = (subtotal*.0725);
 let grandTotal = (salesTax+subtotal).toFixed(2);
 
-
+console.log(productName);
+console.log(productPrice);
+console.log(productQty);
+console.log(subtotal);
+console.log(salesTax);
+console.log(grandTotal);
 
 document.getElementById("product-info").innerHTML=`
     <h2> Receipt </h2>
