@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-color: lightgrey;
+}
+
+header h1{
+    text-shadow: 2px 2px white;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+   background-color: black;
+   color: white;
+   padding: 20px;
+   border-radius: 5px;
+   margin: 20px auto;
+   font-size: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+    color: goldenrod;
+}
+
+ol{
+    margin: 10px;
+}
+
+.results-zone{
+    margin-top: 20px;
+    width: 70%;
+    height: 200px;
+    border: 1px dotted black
+
+}

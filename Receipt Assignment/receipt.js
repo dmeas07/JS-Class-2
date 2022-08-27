@@ -2,8 +2,8 @@ let productName = prompt("Enter Product Name: ");
 let productPrice = Number(prompt("Enter Product Price: "));
 let productQty = Number(prompt("Enter Product Qty: "));
 let subtotal = (productPrice*productQty);
-let salesTax = (subtotal*.0725);
-let grandTotal = (salesTax+subtotal).toFixed(2);
+let salesTax = parseFloat(subtotal*.0725).toFixed(2);
+let grandTotal = parseFloat(salesTax+subtotal).toFixed(2);
 
 console.log(productName);
 console.log(productPrice);
